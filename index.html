@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- To render mobile first view -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Fire Emblem Heroes</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="serebii.net"><img id="nav"src="images/logo.png"></a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <header>
+        <img id="slide" src="images/Heroes.jpg">
+      </header>
+      <div class="infoBox">
+        <img id="cntr" src="images/worldofFe.png">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-md-6" >
+                <div class="classPad">
+                  <h1 style="color:white;"> Watch the trailer </h1>
+                  <div id="feLoadVid" style="display:none; ">
+                    <iframe class="frame1" width="550px" height="260px"id="feVid" frameborder="0" allowfullscreen> </iframe>
+                  </div>
+
+                  <div class="media-border" id="linkVideo" data-vid='AWOcLSD_D1I'>
+
+                    <img  alt="Fire Emblem"src="images/thumbnail1.jpg"  id="linkVideo1" style="visibility: hidden;"/>
+
+                  </div>
+
+                  <script type="text/javascript" src="myScript.js">
+                  </script>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-6">
+                <div class="classPad">
+                  <h1 style="color:white;"> Visit the website </h1>
+                  <div class="otherImg" onclick="location.href='https://fire-emblem-heroes.com/en/';">
+                    <img  alt="Fire Emblem"src="images/thumbnail1.jpg"  id="linkVideo1" style="visibility: hidden;"/>
+                  </div>
+                </div >
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </main>
+  </body>
+</html>
